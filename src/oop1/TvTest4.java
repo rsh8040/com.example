@@ -2,10 +2,10 @@ package oop1;
 
 class TvTest4 {
     public static void main(String[] args) {
-        Tv[] tvArr =  new Tv[3];
+        Tv4[] tvArr =  new Tv4[3];
 
         for(int i=0;i<tvArr.length;i++) {
-            tvArr[i] = new Tv();
+            tvArr[i] = new Tv4();
             tvArr[i].channel = i + 10; 
         }
 
@@ -16,7 +16,7 @@ class TvTest4 {
     }
 }
 
-class Tv {
+class Tv4 {
     String color;
     boolean power;
     int channel;
