@@ -1,3 +1,6 @@
 /.vscode
 /bin
 /lib
+/java_study.iml
+/.idea
+*.class
